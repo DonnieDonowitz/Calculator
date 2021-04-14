@@ -1,0 +1,37 @@
+QWidget#Calculator {
+	width: 300px;
+	height: 400px;
+	background-color: white;
+}
+
+QLineEdit {
+	background-color: #C0C0C0;
+	border: 1px solid gray;
+	color: #FFFFFF;
+	font: bold 32px;
+	opacity: 120;
+}
+
+QToolButton {
+	background-color: gray;
+	border: 1px solid gray;
+	padding: 5px;
+	font: bold 14px;
+}
+
+QToolButton#point, QToolButton#minus, QToolButton#add, QToolButton#mult, QToolButton#div, QToolButton#addToMemory, QToolButton#changeSign,
+QToolButton#clearAll, QToolButton#memory, QToolButton#equal {
+	background-color: #FFA500;
+	border: 1px solid gray;
+	padding: 5px;
+	font: bold 14px;
+}
+
+QToolButton#point:pressed, QToolButton#minus:pressed, QToolButton#add:pressed, QToolButton#mult:pressed, QToolButton#div:pressed, QToolButton#addToMemory:pressed, 
+QToolButton#changeSign:pressed, QToolButton#clearAll:pressed, QToolButton#memory:pressed, QToolButton#equal:pressed {
+	background-color: #FFFF00;
+}
+
+QToolButton:pressed {
+	background-color: #99CBFF;
+}
